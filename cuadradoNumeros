@@ -1,0 +1,2 @@
+//poner esto en terminal
+awk '{square=$1^2; print(square);}' numeros.dat

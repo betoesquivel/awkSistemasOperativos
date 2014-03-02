@@ -1,0 +1,2 @@
+//poner esto en terminal para sacar la raíz de la suma de cuadrados
+awk '{square=$2^3; sum+=square;} END {root=sqrt(sum);print(root);}' numeros.dat

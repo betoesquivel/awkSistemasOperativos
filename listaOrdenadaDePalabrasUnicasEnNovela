@@ -1,0 +1,2 @@
+//poner esto en terminal
+cat novela.txt | awk '{gsub(/\.|\;|\,|\-|\?|¿|\:/,"",$0);print $0;}' RS=' ' | sort | uniq > palabras.txt
